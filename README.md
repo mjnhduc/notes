@@ -1,10 +1,10 @@
 # Daily Task Notes
 
-Welcome to your personal notes repository! Use this README to keep track of your daily tasks, ideas, and progress.
+Welcome to your personal notes repository! Use this README to keep track of your daily airdrop-related tasks, ideas, and progress.
 
 ## How to Use
 
-- Add your tasks, notes, or thoughts for each day.
+- Add your daily airdrop tasks, such as checking eligibility, claiming, swapping tokens, or tracking new opportunities.
 - Use markdown formatting for better organization.
 - Check off completed tasks with `- [x]`.
 
@@ -12,10 +12,11 @@ Welcome to your personal notes repository! Use this README to keep track of your
 
 ### 2024-06-13
 
-- [ ] Finish project report
-- [x] Review pull requests
-- [ ] Plan tomorrow's meeting
+- [ ] Check new airdrop announcements
+- [x] Claim eligible airdrops
+- [ ] Swap received tokens
+- [ ] Track wallet activity for future airdrops
 
 ---
 
-Feel free to create new sections for each day or week. Happy noting!
+Feel free to create new sections for each day or week. Stay consistent and maximize your airdrop opportunities!
