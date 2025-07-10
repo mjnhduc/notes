@@ -37,3 +37,16 @@ for epoch in range(EPOCHS):
         loss.backward()
         optimizer.step()
     print(f"Epoch {epoch+1}, Loss: {loss.item():.4f}")
+    # Refactored: Move training loop to a function and call it here
+    def train(model, train_loader, criterion, optimizer, epochs):
+        for epoch in range(epochs):
+            for batch_idx, (data, target) in enumerate(train_loader):
+                optimizer.zero_grad()
+                output = model(data)
+                loss = criterion(output, target)
+                loss.backward()
+                optimizer.step()
+            print(f"Epoch {epoch+1}, Loss: {loss.item():.4f}")
+
+    # Call the refactored train function
+    train(model, train_loader, criterion, optimizer, EPOCHS)
